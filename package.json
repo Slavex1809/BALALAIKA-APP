@@ -1,0 +1,12 @@
+{
+  "name": "balalalka-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "web": "cd apps/web && npm run dev",
+    "mobile": "cd apps/mobile && npm start",
+    "supabase:start": "docker-compose up -d",
+    "supabase:stop": "docker-compose down",
+    "supabase:logs": "docker-compose logs -f"
+  }
+}

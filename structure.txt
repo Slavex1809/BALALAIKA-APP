@@ -1,0 +1,11 @@
+BALALAIKA-APP/
+├── apps/
+│   ├── mobile/
+│   └── web/
+├── packages/
+│   ├── types/
+│   ├── utils/
+│   ├── ui/
+│   └── config/
+└── supabase/
+    └── migrations/
